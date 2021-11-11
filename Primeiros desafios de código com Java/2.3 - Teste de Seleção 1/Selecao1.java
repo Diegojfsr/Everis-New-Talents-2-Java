@@ -11,7 +11,8 @@ public class Selecao1{
 
 		if (b > c && d > a && (c + d) > (a + b) && c > 0 && d > 0 && a % 2 == 0) {
 			System.out.println("Valores aceitos");
-		} else {
+		} 
+		else {
 			System.out.println("Valores nao aceitos");
 		}
 	}
