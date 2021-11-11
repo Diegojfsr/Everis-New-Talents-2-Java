@@ -18,3 +18,13 @@ Exemplo de Saída
 nota invalida
 nota invalida
 media = 6.75
+
+import java.util.Scanner;
+
+public class Problem{
+
+	public static void main(String[] args) throws Exception {
+            //implente sua solução aqui
+
+    }
+}
