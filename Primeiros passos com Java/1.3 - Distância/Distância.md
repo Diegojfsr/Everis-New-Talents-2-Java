@@ -13,6 +13,7 @@ Exemplo de Entrada                          Exemplo de Saída
 -8 0                                        0.0
 0 8                     
 
+# ### Codigo Base do Desafio ### 
 
 import java.util.Scanner;
 
@@ -26,3 +27,21 @@ public class Test {
     	System.out.printf("%d minutos\n", 2 *  ); // Digite aqui o calculo dos minutos
      }  
 }
+
+# ###############################
+
+# ### Codigo de Resolução do Desafio ### 
+
+import java.util.Scanner;
+
+public class Distancia {
+	public static void main(String[] args) {
+  	int minutos;
+  	Scanner input = new Scanner(System.in);
+  	
+  	minutos = input.nextInt();
+  	System.out.printf("%d minutos\n", 2 * minutos);
+	}  
+}
+
+# ###############################

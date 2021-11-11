@@ -14,6 +14,8 @@ Exemplo de Entrada          	Exemplo de Saída
 -8 0                            0.0
 0 8
 
+# ### Codigo Base do Desafio ### 
+
 import java.io.IOException;
 import java.util.Scanner;
 
@@ -33,3 +35,29 @@ public class Problem {
     }
 	
 }
+
+# ###############################
+
+# ### Codigo de Resolução do Desafio ### 
+
+import java.util.Scanner;
+
+public class DividindoXporY {
+  public static void main(String[] args) {
+    Scanner input = new Scanner(System.in);
+    int n = input.nextInt();
+    
+    for (int i = 0; i < n; i++) {
+      double x = input.nextDouble();
+      double y = input.nextDouble();
+     
+      if (y == 0) {
+        System.out.println("divisao impossivel");
+      } else {
+        System.out.printf("%.1f\n", (double)(x/y));
+      }
+    }
+  }
+}
+
+# ###############################
